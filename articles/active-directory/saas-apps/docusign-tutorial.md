@@ -73,7 +73,7 @@ To enable Azure AD SSO in the Azure portal, follow these steps:
 1. On the **Select a single sign-on method** page, select **SAML**.
 1. On the **Set up single sign-on with SAML** page, select the pencil icon for **Basic SAML Configuration** to edit the settings.
 
-   ![Edit Basic SAML Configuration](common/edit-urls.png)
+   ![Edit Basic SAML Configuration](media/docusign-tutorial/edit-urls.png)
 
 1. In the **Basic SAML Configuration** section, perform the following steps:
 
@@ -100,11 +100,11 @@ To enable Azure AD SSO in the Azure portal, follow these steps:
 
 1. On the **Set up single sign-on with SAML** page, in the **SAML Signing Certificate** section,  find **Certificate (Base64)**. Select **Download** to download the certificate and save it on your computer.
 
-	![The Certificate download link](common/certificatebase64.png)
+	![The Certificate download link](media/docusign-tutorial/certificatebase64.png)
 
 1. In the **Set up DocuSign** section, copy the appropriate URL (or URLs) based on your requirements.
 
-	![Copy configuration URLs](common/copy-configuration-urls.png)
+	![Copy configuration URLs](media/docusign-tutorial/copy-configuration-urls.png)
 
 ### Create an Azure AD test user
 
@@ -134,11 +134,11 @@ In this section, you'll grant B.Simon access to DocuSign so that this user can u
 
 1. To automate the configuration in DocuSign, you must install the My Apps Secure Sign-in browser extension by selecting **Install the extension**.
 
-    ![My apps extension](common/install-myappssecure-extension.png)
+    ![My apps extension](media/docusign-tutorial/install-myappssecure-extension.png)
 
 2. After you add the extension to the browser, select **Setup DocuSign**. You're directed to the DocuSign application. From there, provide the admin credentials to sign in to DocuSign. The browser extension automatically configures the application and automates steps 3 through 5.
 
-    ![Setup configuration](common/setup-sso.png)
+    ![Setup configuration](media/docusign-tutorial/setup-sso.png)
 
 3. If you want to set up DocuSign manually, open a new web browser window and sign in to your DocuSign company site as an administrator.
 
@@ -237,10 +237,10 @@ Once you configure DocuSign you can enforce Session control, which protects exfi
 <!--Image references-->
 
 [50]: ./media/docusign-tutorial/tutorial-docusign-18.png
-[51]: ./media/docusign-tutorial/tutorial-docusign-21.png
-[52]: ./media/docusign-tutorial/tutorial-docusign-22.png
-[53]: ./media/docusign-tutorial/tutorial-docusign-23.png
-[54]: ./media/docusign-tutorial/tutorial-docusign-19.png
+[51]: ./media/docusign-tutorial/docusign-admin.png
+[52]: ./media/docusign-tutorial/claim_domain.png
+[53]: ./media/docusign-tutorial/claim_a_domain.png
+[54]: ./media/docusign-tutorial/identity_providers.png
 [55]: ./media/docusign-tutorial/tutorial-docusign-20.png
 [56]: ./media/docusign-tutorial/request.png
 [57]: ./media/docusign-tutorial/tutorial-docusign-25.png
