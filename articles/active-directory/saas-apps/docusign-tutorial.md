@@ -169,7 +169,7 @@ In this section, you'll grant B.Simon access to DocuSign so that this user can u
 
     ![TXT_token](media/docusign-tutorial/txt_token.png)
 
-10. Configure your DNS provider with the **TXT Token** by following these steps:
+10. Configure your DNS provider with the **TXT Token** by following these steps:  
     a. Navigate to your domain's DNS record management page.  
     b. Add a new TXT record.  
     c. Name: @ or *  
