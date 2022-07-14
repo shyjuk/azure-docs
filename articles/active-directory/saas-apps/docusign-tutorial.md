@@ -170,12 +170,11 @@ In this section, you'll grant B.Simon access to DocuSign so that this user can u
     ![TXT_token](media/docusign-tutorial/txt_token.png)
 
 10. Configure your DNS provider with the **TXT Token** by following these steps:
-
-	i. Navigate to your domain's DNS record management page.
-	ii. Add a new TXT record.
-	iii. Name: @ or *
-	iv. Text: paste the **TXT Token** value, which you copied from the earlier step.
-	v. TTL: Default or 1 hour / 3600 seconds
+    a. Navigate to your domain's DNS record management page.
+    b. Add a new TXT record.
+    c. Name: @ or *
+    d. Text: paste the **TXT Token** value, which you copied from the earlier step.
+    e. TTL: Default or 1 hour / 3600 seconds
 
 
 11. On the domain solutions page, select **Identity Providers**.
@@ -217,7 +216,7 @@ In this section, you'll grant B.Simon access to DocuSign so that this user can u
 
        ![Custom Attribute Mapping fields][57]
 
-       > [!NOTE]
+       > **_NOTE:_**
        > Use the appropriate **User identifier** to map the user from Azure AD to DocuSign user mapping. Select the proper field, and enter the appropriate value based on your organization settings. Custom Attribute Mapping setting is not mandatory.
 
     i. In the **Identity Provider Certificates** section, select **ADD CERTIFICATE**, upload the certificate you downloaded from Azure AD portal, and select **SAVE**.
